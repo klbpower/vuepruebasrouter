@@ -1,14 +1,16 @@
 <template>
-  <div class="about">
-     <Titulo texto="Página de About"/>
-  </div>
-   
+  <Titulo texto="Título de mi blog" />
 </template>
+
 <script>
 import Titulo from '../components/Titulo'
 export default {
-  components: {
+  components:{
     Titulo
   }
 }
 </script>
+
+<style>
+
+</style>
