@@ -28,6 +28,9 @@ export default {
         console.log(error);
       }
     }
+  },
+  created() {
+    this.consumirAPI();
   }
 }
 </script>
