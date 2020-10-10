@@ -1,6 +1,6 @@
 <template>
   <Titulo texto="Título de mi blog" />
-  <button @click="consumirAPI">Consumir API JSON Placeholder</button>
+  <!--<button @click="consumirAPI">Consumir API JSON Placeholder</button>-->
   <div v-for="item in arrayBlog" :key="item.id">
     {{ item.title }}
   </div>
